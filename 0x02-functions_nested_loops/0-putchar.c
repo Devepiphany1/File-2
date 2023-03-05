@@ -4,8 +4,6 @@
 	 * is written by Devepiphany1
 	 * Return: 0
 	 */
-
-
 	int main(void)
 	{
 	_putchar('_');
