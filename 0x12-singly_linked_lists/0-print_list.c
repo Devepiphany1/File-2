@@ -9,17 +9,17 @@
  *
  * Return: the numb of nodes printed
  */
-size_t print_list(const list_t *j)
+size_t print_list(const list_t *h)
 {
 	size_t s = 0;
 
-	while (j)
+	while (h)
 	{
-		if (!j->str)
+		if (!h->str)
 			printf("[0] (nil)\n");
 		else
-			printf("[%u] %s\n", j->len, j->str);
-		j = j->next;
+			printf("[%u] %s\n", h->len, h->str);
+		h = h->next;
 		s++;
 	}
 
